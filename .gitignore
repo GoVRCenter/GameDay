@@ -63,6 +63,9 @@ Build/*/**
 # Don't ignore icon files in Build
 !Build/**/*.ico
 
+# Don't ignore manifest file in Android folder
+!Build/Android/*.txt
+
 # Built data for maps
 *_BuiltData.uasset
 
